@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-7</title>
+    <style>
+         body {
+            background-color: #000;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        form{
+            background-color: #fff;
+            padding: 10px;
+           
+            border: 2px solid black;
+        }
+        .container {
+            background-color: #fff;
+            padding: 10px;
+            max-width:400px;
+        }
+        .heading {
+            color:#fff; 
+            background-color:red;
+            padding: 5px;
+            margin:0px;
+        }
+        input {
+            border: none;
+            border-bottom: 2px solid black;
+            text-align: center;
+            font-style: italic;
+            margin:2px;
+        }
+        .name {
+            display:flex;
+            justify-content:space-between;
+        }
+
+        .check {
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="container">
+       <form action="#" method="post">
+         <h3 class="heading">Yes! I want to subscribe to <i>Mag-O-Zine</i></h3>
+         <div class="name">
+            <div><input type="text" value="Joe"><br>First Name</div>
+            <div><input type="text" value="Schmegeggie"><br>Last Name</div>
+        </div>
+        <div class="address">
+            <input type="text" style="width:100%" value="1001 Washington Street"><br>Address
+        </div>
+        <div class="name">
+            <div><input type="text" value="Awfown" style="width:35%"><br>City</div>
+            <div><input type="text" value="CA" style="width:30%"><br>State</div>
+            <div><input type="text" value="99999" style="width:30%" ><br>Zip</div>
+        </div>
+
+        <div class="check">
+        <b>Subscribe for: </b>
+        
+        <input type="checkbox" checked>
+        <span class="checkmark"></span>
+        <label class="container1"><b>1 year ($19.95)</b></label>
+        <input type="checkbox" ><b>2 years ($35.00)</b><br>
+    </div>
+        <div class="check">
+            <b>Send me more information about:</b> <br>
+        <input type="checkbox" checked><b>Computer-Zine</b><br>
+        <input type="checkbox" ><b>Fishing-Zine</b><br>
+        <input type="checkbox" checked><b>Cat-O-Zine</b>
+    </div>
+       </form>
+   </div> 
+</body>
+</html>
